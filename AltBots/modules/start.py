@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 •", data="help_back")
     ],
     [
-        Button.url("•  𝗖𝗛𝗔𝗡𝗡𝗘𝗟 •", "https://t.me/BWANDARLOK"),
-        Button.url("• 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 •", "https://t.me/PRADHAN474")
+        Button.url("•  𝗖𝗛𝗔𝗡𝗡𝗘𝗟 •", "https://t.me/your_devil82"),
+        Button.url("• 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 •", "https://t.me/Rajaluckgames12")
     ],
     [
-        Button.url("• 𝗥𝗘𝗣𝗢 •", "https://github.com/PRADHAN474/ALSPSM")
+        Button.url("• 𝗥𝗘𝗣𝗢 •", "https://github.com/Samyak1222/Royal-spam")
     ]
 ]
 
@@ -33,14 +33,14 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝗢𝗫𝗬𝗚𝗘𝗡](https://t.me/PRADHAN474)**\n\n"
+        TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{Royal_X_Spam}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ROYAL🔥](https://t.me/royal11gr)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://te.legra.ph/file/7bc5551374ee010ba57d2.jpg",
+                    "https://graph.org/file/bf139cdf3ff4a0e3375a1.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
